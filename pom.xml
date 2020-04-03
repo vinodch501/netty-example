@@ -34,3 +34,10 @@
     </plugins>
   </build>
 </project>
+mvn verify sonar:sonar
+<properties>
+  <sonar.projectKey>vinodch501_SimpleCustomerApp</sonar.projectKey>
+  <sonar.organization>vinodch501</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>a51d32593706811f91636d56e1642900bdb11cd3</sonar.login>
+</properties>
